@@ -1,5 +1,5 @@
 # Baby-love-Beauty
-This is a project for Beginners to use Raspberry Pi to build a "Tool" to help remember do we wash hair yesteday
+This is a project for Beginners to use Raspberry Pi to build a "Tool" to help remember did your girlfriend wash hair yesteday
 
 
 simple:       
