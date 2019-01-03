@@ -2,12 +2,12 @@
 This is a project for Beginners to use Raspberry Pi to build a "Tool" to help remember do we wash hair yesteday
 
 
-simple:
+simple:       
          only one button. 
          Green LED for your hair is clean.                   
          Red LED for you should wash your hair.                 
                           
-how it work:
+how it work:      
          hold the button for 1 sec.              
          Green LED on and Red LED off.           
          wait for 24hours           
