@@ -20,4 +20,10 @@ there are some reasons.
 1: have chance to go to their room to set the time          
 2: Raspberry Pi maybe not stable.         
 
-![image](https://github.com/xiaoqianzi15/Baby-love-Beauty/blob/master/picture/beauty2.jpg)
+![image](https://github.com/xiaoqianzi15/Baby-love-Beauty/blob/master/picture/beauty2.jpg)             
+
+
+
+![image](https://github.com/xiaoqianzi15/Baby-love-Beauty/blob/master/picture/LED%20HeadLamp.png)             
+
+
