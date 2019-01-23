@@ -1,16 +1,16 @@
 
-import time  # time function
-from gpiozero import LED  //IO function
+import time  # 导入此模块，获取当前时间
+from gpiozero import LED
 from gpiozero import Button
-#import tkinter # 
+#import tkinter # 导入控件
 
 ledG = LED(27)
 ledR = LED(22)
 button = Button(3)
 
-# set time
-hour = 24
-minute = 0
+# 设置定时时间
+hour = 0
+minute = 1
 sec = 0
 ledG.on()
 ledR.on()
@@ -35,6 +35,13 @@ while flag:
         if hour == 0 and minute ==0 and sec ==0:
             print("time out")
             loop = 2
+        if button.is_pressed:
+            ledR.on()
+            time.sleep(1)
+            ledR.off()
+            hour = 36
+            minute = 0
+            sec = 0
         sec = sec - 1
         time.sleep(1)
         print("hour:", hour,"minute:", minute,"sec:", sec)
@@ -42,8 +49,10 @@ while flag:
         ledR.on()
         ledG.off()
         time.sleep(1)
+        print("wash hair")
         if button.is_pressed:
-            hour = 24
+            hour = 36
             minute = 0
             sec = 0
             loop = 1
+            
